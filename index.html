@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>小红书笔记导出 · 下载与安装</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; color: #333; background: #faf9f7; line-height: 1.75; }
+  .hero { background: linear-gradient(160deg, #ff5c75, #e62642); color: #fff; padding: 56px 20px 48px; text-align: center; }
+  .logo { width: 72px; height: 72px; border-radius: 18px; background: rgba(255,255,255,0.18); display: inline-flex; align-items: center; justify-content: center; font-size: 42px; font-weight: 600; margin-bottom: 16px; }
+  .hero h1 { font-size: 26px; margin-bottom: 8px; }
+  .hero p { opacity: 0.92; max-width: 560px; margin: 0 auto; font-size: 15px; }
+  .main { max-width: 760px; margin: 0 auto; padding: 40px 20px 60px; }
+  .card { background: #fff; border: 1px solid #eee7e2; border-radius: 14px; padding: 28px; margin-bottom: 24px; }
+  .card h2 { font-size: 18px; margin-bottom: 14px; color: #1f1f1f; }
+  .btns { display: flex; gap: 14px; flex-wrap: wrap; }
+  .btn { display: inline-block; padding: 13px 26px; border-radius: 10px; font-size: 15px; font-weight: 600; text-decoration: none; }
+  .btn-primary { background: #e62642; color: #fff; }
+  .btn-primary:hover { background: #c81f38; }
+  .btn-ghost { background: #fff; color: #e62642; border: 1.5px solid #e62642; }
+  .btn-ghost:hover { background: #fdeef0; }
+  .note { font-size: 13px; color: #999; margin-top: 10px; }
+  ol.steps { padding-left: 22px; }
+  ol.steps li { margin: 8px 0; }
+  code { background: #f4f1ee; border-radius: 5px; padding: 2px 7px; font-size: 13px; }
+  ul.feats { list-style: none; }
+  ul.feats li { padding: 7px 0 7px 26px; position: relative; }
+  ul.feats li::before { content: ""; position: absolute; left: 4px; top: 15px; width: 8px; height: 8px; border-radius: 50%; background: #e62642; }
+  .foot { text-align: center; color: #b5aca6; font-size: 13px; padding: 24px 0 40px; }
+  .foot a { color: #e62642; text-decoration: none; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #1d1c1a; color: #d8d4cc; }
+    .card { background: #26251f; border-color: #3a3a38; }
+    .card h2 { color: #f0ece4; }
+    code { background: #33322c; }
+    .btn-ghost { background: transparent; }
+    .btn-ghost:hover { background: rgba(230,38,66,0.12); }
+    .foot { color: #8a8578; }
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="logo">书</div>
+  <h1>小红书笔记导出</h1>
+  <p>把小红书笔记一键转成阅读版 HTML / PDF / EPUB，可选 OCR 识别图中文字、收录评论。全部处理在本机完成，不上传任何数据。</p>
+</div>
+
+<div class="main">
+
+  <div class="card">
+    <h2>下载安装 · v0.1.0</h2>
+    <div class="btns">
+      <a class="btn btn-primary" href="https://microsoftedge.microsoft.com/addons/detail/gpdmfceae9idnkmfehlglgklejbcaobloi" target="_blank" rel="noopener">Edge 商店安装（推荐）</a>
+      <a class="btn btn-ghost" href="xhs-export-extension-0.1.0.zip" download>下载 ZIP（17.7 MB）</a>
+    </div>
+    <p class="note">Edge 用户走商店安装即可自动更新；ZIP 供 Chrome / 不便访问商店的用户使用。</p>
+  </div>
+
+  <div class="card">
+    <h2>Chrome 用户安装 ZIP（三步）</h2>
+    <ol class="steps">
+      <li>下载并解压上面的 ZIP，得到一个文件夹</li>
+      <li>打开 <code>chrome://extensions</code>，右上角打开「开发者模式」</li>
+      <li>点「加载已解压的扩展程序」，选中解压出的文件夹</li>
+    </ol>
+    <p class="note">说明：Chrome 不允许直接安装商店外的 .crx 文件，加载解压目录是官方支持的方式。开发者模式提示「请停用开发者模式运行的扩展程序」时点取消即可，不影响使用。</p>
+  </div>
+
+  <div class="card">
+    <h2>功能</h2>
+    <ul class="feats">
+      <li>三种出口，一份内容：阅读版 HTML / 可打印 PDF / EPUB 3（微信读书、Apple Books、Kindle 可导入）</li>
+      <li>OCR 图文识别：长图文章自动合并为连续正文，识别结果可校对编辑（可选）</li>
+      <li>评论收录：主楼 + 楼中楼，收录情况如实标注</li>
+      <li>隐私承诺：解析、图片下载、OCR 全部在浏览器本地完成，不收集、不上传、不追踪</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>版本历史</h2>
+    <p><strong>v0.1.0</strong>（2026-09-10）——首个公开版本：笔记解析、阅读版预览、HTML / PDF / EPUB 三出口、OCR 识别与校对、评论收录（含楼中楼与配图）。</p>
+  </div>
+
+</div>
+
+<div class="foot">
+  <a href="privacy-policy.html">隐私政策</a> · 由 <a href="https://github.com/adouber" target="_blank" rel="noopener">@adouber</a> 开发 · 问题反馈：anranshiyu@outlook.com
+</div>
+
+</body>
+</html>
