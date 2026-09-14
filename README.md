@@ -4,7 +4,7 @@
 
 ## 📥 下载安装
 
-- **Edge 用户（推荐）**：[Edge 商店安装](https://microsoftedge.microsoft.com/addons/detail/gpdmfceae9idnkmfehlglgklejbcaobloi)，自动更新
+- **Edge 用户（推荐）**：[Edge 商店安装](https://microsoftedge.microsoft.com/addons/detail/gpdmfceaebidmkmeblgoklebjcaobloi)，自动更新
 - **Chrome / 其他**：[下载 ZIP v0.1.0](https://adouber.github.io/xhs-export-privacy/xhs-export-extension-0.1.0.zip)（17.7 MB），解压后在 `chrome://extensions` 开启「开发者模式」→「加载已解压的扩展程序」
 
 👉 [在线下载页（含详细安装说明）](https://adouber.github.io/xhs-export-privacy/)
